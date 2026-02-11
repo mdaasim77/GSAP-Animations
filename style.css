@@ -9,10 +9,20 @@ html,
 body {
   height: 100%;
   width: 100%;
+  overflow: hidden;
 }
 
 #box {
   height: 200px;
   width: 200px;
   background: orange;
+}
+p {
+  font-size: 40px;
+}
+#ball {
+  height: 100px;
+  width: 100px;
+  background-color: #b12bc6;
+  border-radius: 50%;
 }
