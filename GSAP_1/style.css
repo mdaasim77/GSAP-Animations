@@ -26,18 +26,18 @@ p {
   background-color: #b12bc6;
   border-radius: 50%;
 }
-.timeline1{
+.timeline1 {
   height: 150px;
   width: 150px;
   background-color: red;
 }
-.timeline2{
+.timeline2 {
   height: 150px;
   width: 150px;
   background-color: blue;
   border: 1px solid black;
 }
-.timeline3{
+.timeline3 {
   height: 150px;
   width: 150px;
   background-color: green;
