@@ -12,32 +12,32 @@ body {
   overflow-x: hidden;
 }
 
-#page1{
-    height: 100%;
-    width: 100%;
-    background-color: lightblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#page1 {
+  height: 100%;
+  width: 100%;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#page2{
-    height: 100%;
-    width: 100%;
-    background-color: #c59dcf;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#page2 {
+  height: 100%;
+  width: 100%;
+  background-color: #c59dcf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#page3{
-    height: 100%;
-    width: 100%;
-    background-color: #8fbceb;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#page3 {
+  height: 100%;
+  width: 100%;
+  background-color: #8fbceb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#box{
-    height: 300px;
-    width: 300px;
-    background-color: crimson;
+#box {
+  height: 300px;
+  width: 300px;
+  background-color: crimson;
 }
