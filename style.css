@@ -9,7 +9,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 #box {
@@ -25,4 +25,19 @@ p {
   width: 100px;
   background-color: #b12bc6;
   border-radius: 50%;
+}
+.timeline1{
+  height: 150px;
+  width: 150px;
+  background-color: red;
+}
+.timeline2{
+  height: 150px;
+  width: 150px;
+  background-color: blue;
+}
+.timeline3{
+  height: 150px;
+  width: 150px;
+  background-color: green;
 }

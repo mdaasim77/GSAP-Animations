@@ -30,6 +30,30 @@ gsap.to("#ball",{
     duration:2,
     repeat:-1,
     yoyo:true
+})
 
 
+// ============== time line property
+
+var tl = gsap.timeline()
+
+tl.to(".timeline1",{
+    x:800,
+    y:-400,
+    // delay:1,
+    duration:2
+})
+tl.to(".timeline2",{
+    x:800,
+    y:-300,
+    // delay:1,
+    duration:2,
+    backgroundColor:"orange"
+})
+tl.to(".timeline3",{
+    x:800,
+    y:-200,
+    // delay:1,
+    duration:2,
+    borderRadius:20
 })
