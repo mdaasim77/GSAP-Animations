@@ -16,6 +16,7 @@ gsap.from("#page2 .box", {
     start: "top 50%",
     end: "top 10%",
     scrub: true,
+    toggleActions: "play reverse play reverse", // working on this 
     markers: true,
   },
 });
