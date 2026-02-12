@@ -41,7 +41,7 @@ tl.to(".timeline1", {
   y: -400,
   // delay:1,
   duration: 2,
-  backgroundColor: "orange"
+  backgroundColor: "orange",
 });
 tl.to(".timeline2", {
   x: 800,
@@ -49,7 +49,6 @@ tl.to(".timeline2", {
   // delay:1,
   duration: 2,
   backgroundColor: "white",
- 
 });
 tl.to(".timeline3", {
   x: 800,
