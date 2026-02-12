@@ -11,7 +11,6 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
-
 #page1 {
   height: 100%;
   width: 100%;
@@ -36,7 +35,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-#box {
+.box {
   height: 300px;
   width: 300px;
   background-color: crimson;
