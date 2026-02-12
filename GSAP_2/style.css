@@ -1,4 +1,4 @@
-/* * {
+ {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,12 +9,13 @@ html,
 body {
   height: 100%;
   width: 100%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
+
 #page1 {
   height: 100%;
   width: 100%;
-  background-color: lightblue;
+  background-color: rgb(185, 210, 218);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,19 +42,19 @@ body {
   background-color: crimson;
 }
 
- */
 
 
+/* 
  h1{
   font-size: 40px;
   font-weight: bold;
   
-  /* background-color: gray; */
+  background-color: gray;
   color: black;
  }
  p{
   font-size: 20px;
-  /* background-color: red; */
+  background-color: red;
   color:black
  }
  button{
@@ -61,3 +62,6 @@ body {
   color: black;
   padding: 10px;
  }
+ h2{
+  font-size: 25px;
+ } */
