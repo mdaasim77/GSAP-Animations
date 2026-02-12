@@ -42,18 +42,28 @@ tl.to(".timeline1", {
   // delay:1,
   duration: 2,
   backgroundColor: "orange",
-});
-tl.to(".timeline2", {
-  x: 800,
-  y: -300,
-  // delay:1,
-  duration: 2,
-  backgroundColor: "white",
-});
-tl.to(".timeline3", {
-  x: 800,
-  y: -200,
-  // delay:1,
-  duration: 2,
-  borderRadius: 20,
-});
+})
+  .to(
+    ".timeline2",
+    {
+      x: 800,
+      y: -300,
+      // delay:1,
+      duration: 2,
+      backgroundColor: "white",
+    },
+    "-=0.5",
+  )
+  .to(
+    ".timeline3",
+    {
+      x: 800,
+      y: -200,
+      // delay:1,
+      duration: 2,
+      borderRadius: 20,
+    },
+    "-=0.5",
+  );
+
+
